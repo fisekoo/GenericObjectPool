@@ -9,7 +9,6 @@ public class GenericObjectPool : MonoBehaviour
     /// Struct of pool.
     /// Assign properties in inspector.
     /// </summary>
-    /// <returns>Inactive pooled object of given type.</returns>
     public struct Pool<T> where T : MonoBehaviour, new()
     {
         public List<T> objects;
